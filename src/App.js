@@ -25,11 +25,11 @@ function App() {
 
   return (
     <div className="container">
-      <div className="row">
+      <div className="">
         <input
           type="text"
           placeholder="Search a Coin"
-          className="form-control bg-dark text-light border-0 mt-4 text-center"
+          className="search-input"
           autoFocus
           onChange={(e) => setSearch(e.target.value)}
         />
